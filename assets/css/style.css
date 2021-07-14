@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.sidebar {
+    width: 100%;
+    height: 200px;
+    background-color: #0e002b;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img{
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+}
+
+.position{
+    display: flex;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.position > img ~ .in {
+    margin-left: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.infomation > ul > li > i ~ span{
+    margin-left: 10px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content{
+    width: 100%;
+}
+
+.hocvan{
+    height: 150px;
+}
+.hocvan_title{
+    color: #0e002b;
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #e8e8e8;
+}
+
+.hocvan_title > i{
+    margin: 10px;
+    
+}
+.hocvan_title > span{
+    text-transform: uppercase;
+}
+.hocvan_title > i ~ span {
+    margin-left: 30px;
+}
+
+.hocvan_content{
+    text-decoration: none;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.hocvan_content > p {
+    margin-left: 60px;
+}
+
+.hocvan_content > p ~ ul{
+    margin-left: 60px;
+}
+
+.experience{
+    height: 200px;
+}
+
+.exp_title{
+    color: #0e002b;
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #e8e8e8;
+}
+
+.exp_title > i {
+    margin: 10px;
+}
+
+.exp_title > span{
+    text-transform: uppercase;
+}
+
+.exp_title > i ~ span {
+    margin-left: 30px;
+}
+
+.exp_content{
+    display: flex;
+    text-transform: capitalize;
+    align-items: center; 
+    margin: 10px;
+}
+
+.exp_content > p {
+    margin-left: 60px;
+}
+
+.exp_content > p ~ ul{
+    margin-left: 60px;
+}
+
+.tech_title{
+    color: #0e002b;
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #e8e8e8;
+}
+
+.tech_title > i {
+    margin: 10px;
+}
+
+.tech_title >span {
+    text-transform: uppercase;
+}
+
+.tech_title > i ~ span {
+    margin-left: 30px;
+}
+
+.tech_content {
+    display: flex;
+    text-transform: capitalize;
+    align-items: center; 
+    margin: 10px;
+}
+
+.tech_content > ul {
+    margin-left: 60px;
+}
+
+.el_title{
+    color: #0e002b;
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #e8e8e8;
+}
+
+.el_title > i {
+    margin: 10px;
+}
+
+.el_title > i ~ span{
+    margin-left: 30px;
+}
+
+.el_title > span{
+    text-transform: uppercase;
+}
+
+.el_content{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.el_content > ul > li > strong ~ span {
+    margin-left: 20px;
+}
+
+.el_content > ul ~ ul {
+    margin-left: 60px;
+}
+
+.el_content > ul {
+    margin-left: 60px;
+}
+
